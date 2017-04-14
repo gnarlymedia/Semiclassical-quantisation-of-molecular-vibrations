@@ -497,9 +497,9 @@ void molecular_vibration()
     }
 
     // Plotting
-    if (1 != cpgbeg(0, "?", 1, 1))
+//    if (1 != cpgbeg(0, "?", 1, 1))
 //    if (1 != cpgbeg(0, "proj_1_plot.ps/VCPS", 1, 1))
-//    if (1 != cpgbeg(0, "/XWINDOW", 1, 1))
+    if (1 != cpgbeg(0, "/XWINDOW", 1, 1))
     {
         exit(EXIT_FAILURE);
     }
