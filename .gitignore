@@ -1,0 +1,7 @@
+/proj_*
+!/proj_*.c
+/core
+/*plot.ps
+/pgplot.*
+/make_run
+/pgplot*.log
